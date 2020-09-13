@@ -1,0 +1,8 @@
+{
+    "transform": {
+        "^.+\\.jsx?$": "babel-jest"
+    },
+    "testRegex": "/tests?/.+[.][jt]sx?$",
+    "verbose": true,    
+    "moduleFileExtensions": ["js", "json", "node"]
+}

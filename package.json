@@ -1,0 +1,41 @@
+{
+    "name": "smtp-address-extract",
+    "version": "0.0.4",
+    "description": "Extract addresses and aliases from SMTP addresses.",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --config jestconfig.json",
+        "build": "babel src -d dist"
+    },
+    "keywords": [
+        "smtp",
+        "extraction",
+        "email",
+        "extract",
+        "alias",
+        "address"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/pavelsaman/smtp-address-extract-js.git"
+    },
+    "author": {
+        "name": "Pavel Saman",
+        "email": "pavelsam@centrum.cz"
+    },
+    "homepage": "https://github.com/pavelsaman/smtp-address-extract-js/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/pavelsaman/smtp-address-extract-js/issues"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/cli": "^7.11.6",
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "babel-jest": "^26.3.0",
+        "jest": "^26.4.2"
+    }
+}
